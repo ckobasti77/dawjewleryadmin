@@ -22,6 +22,7 @@ import {
 import { useStoreModal } from "@/hooks/use-store-modal"
 import { useParams, useRouter } from "next/navigation"
 import Image from "next/image"
+import Link from "next/link"
 
 type PopoverTriggerProps = React.ComponentPropsWithoutRef<typeof PopoverTrigger>
 
@@ -107,11 +108,13 @@ export default function StoreSwitcher({ className, items = [] }: StoreSwitcherPr
     //     </Command>
     //   </PopoverContent>
     // </Popover>
-    <Image
-      src='/logo.png'
-      width={75}
-      height={36}
-      alt="logo"
-    />
+    <Link href='/'>
+      <Image
+        src='/logo.png'
+        width={75}
+        height={36}
+        alt="logo"
+      />
+    </Link>
   );
 };
