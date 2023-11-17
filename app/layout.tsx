@@ -10,8 +10,8 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard",
-  description: "Admin Dashboard",
+  title: "Dav Jewelry",
+  description: "Dav Jewelry",
   icons: {
     icon: [
       {
