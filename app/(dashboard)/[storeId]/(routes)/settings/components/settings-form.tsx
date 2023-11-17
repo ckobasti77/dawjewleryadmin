@@ -133,13 +133,13 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({ initialData }) => {
         </form>
       </Form>
       <Separator />
-      <p title="Unesite ovaj kod kao varijablu za prodavnicu.">
+      {/* <p title="Unesite ovaj kod kao varijablu za prodavnicu.">
         <ApiAlert
           title="Kod za povezivanje ovog panela sa prodavnicom (NEXT_PUBLIC_API_URL)"
           description={`${origin}/api/${params.storeId}`}
           variant="public"
         />
-      </p>
+      </p> */}
     </>
   );
 };
